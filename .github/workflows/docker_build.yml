@@ -31,7 +31,7 @@ jobs:
           context: .
           push: true
           file: ./Dockerfile
-          tags: demethriusrodrigues/webacademy:latest
+          tags: demethriusrodriguesdockerhub/webacademy:latest
 
   deploy:
     runs-on: ubuntu-latest
